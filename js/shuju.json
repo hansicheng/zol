@@ -1,0 +1,178 @@
+[
+	{
+	"cam":[
+						{
+						"id":1013,
+						"title":"索尼A9全画幅微单单机",
+						"price":"￥28888.00",
+						"src":"img/a9.jpg"
+						},{
+						"id":1014,
+						"title":"佳能77D(18-200mm)套机",
+						"price":"￥71998.00",
+						"src":"img/77D.jpg"
+						},{
+						"id":1015,
+						"title":"索尼A5100(16-50MM)",
+						"price":"￥2998.00",
+						"src":"img/A51.jpg"
+						},{
+						"id":1016,
+						"title":"索尼A5100(16-50MM)",
+						"price":"￥2998.00",
+						"src":"img/5D.jpg"
+						},{
+						"id":1017,
+						"title":"佳能5DMark IV(单机)",
+						"price":"￥29908.00",
+						"src":"img/5D.jpg"
+						},{
+						"id":1018,
+						"title":"尼康 D5300套机(18-14..)",
+						"price":"￥9908.00",
+						"src":"img/D5.jpg"
+						},{
+						"id":1019,
+						"title":"尼康 D7100套机(18-14..)",
+						"price":"￥5908.00",
+						"src":"img/D7.jpg"
+						}
+	],
+	"shangbiao":[
+					{
+					"cannon":"<img src='img/cannon.jpg'>"
+					},{
+					"sony":"<img src='img/sonny.jpg'>"
+					},{
+					"nicon":"<img src='img/nicon.jpg'>"
+					},{
+					"casio":"<img src='img/casio.jpg'>"
+					},{
+					"lenno":"<img src='img/lenno.jpg'>"
+					},{
+					"hp":"<img src='img/hp.jpg'>"
+					},{
+					"dell":"<img src='img/dell.jpg'>"
+					},{
+					"ausu":"<img src='img/asus.jpg'>"
+					}
+					
+		],
+	"bijiben":[
+				{
+				"id":1005,
+				"title":"神舟&nbsp;战神Z7-KP7S1",
+				"ad":"i7四核+1060 6G独显",
+				"price":"￥7099",
+				"src":"img/z6.jpg"
+				},{
+				"id":1022,
+				"title":"惠普暗影精灵2Pro游..",
+				"ad":"8G显卡高配降千元赠大礼",
+				"price":"￥4688",
+				"src":"img/anying.jpg"
+				},{
+				"id":1023,
+				"title":"联想小新700电竞版",
+				"ad":"8G显卡高配降千元赠大礼",
+				"price":"￥4699",
+				"src":"img/xiaoxin.jpg"
+				},{
+				"id":1024,
+				"title":"ThinkPad S2 11CD商务",
+				"ad":"8G显卡高配降千元赠大礼",
+				"price":"￥5488",
+				"src":"img/s2.jpg"
+				},{
+				"id":1003,
+				"title":"ThinkPad新款超薄笔记本",
+				"ad":"8G显卡高配降千元赠大礼",
+				"price":"￥5488",
+				"src":"img/700.jpg"
+				},{
+				"id":1020,
+				"title":"戴尔 热血游闸2游戏本",
+				"ad":"8G显卡高配降千元赠大礼",
+				"price":"￥5488",
+				"src":"img/rexue.png"
+				},{
+				"id":1021,
+				"title":"ThinkPad S2-11CD商务",
+				"ad":"8G显卡高配降千元赠大礼",
+				"price":"￥5488",
+				"src":"img/s2.jpg"
+				},{
+				"id":1012,
+				"title":"ThinkPad新款超薄笔记本",
+				"ad":"8G显卡高配降千元赠大礼",
+				"price":"￥5488",
+				"src":"img/700.jpg"
+				}
+	],
+	
+	"guanggao":[
+				{
+				"id":1025,
+				"title":"【现货包邮  送壳膜】魅族 魅蓝5S",
+				"ad":"【现货包邮 送壳膜】魅族 魅蓝5s 全网通 移动联通电信4G手机",
+				"price":"￥744",
+				"src":"img/meizu.jpg"
+				},{
+				"id":1031,
+				"title":"神舟&nbsp;战神k6-10D-i7 D2 K610",
+				"ad":"i7四核+1060 6G独显",
+				"price":"￥3799",
+				"src":"img/k6.jpg"
+				},{
+				"id":1026,
+				"title":"OPPO R9s 全网通 4GB+64GB 玫瑰金",
+				"ad":"OPPO R9s 全网通 4GB+64GB 玫瑰金",
+				"price":"￥2388",
+				"src":"img/r9s.jpg"
+				},{
+				"id":1014,
+				"title":"佳能7D MarkⅡ（单机身）",
+				"price":"￥75208.00",
+				"src":"img/7D.jpg"
+				},{
+				"id":1027,
+				"title":"【顺丰包邮 送壳膜】联想 ZUK",
+				"ad":"【顺丰包邮 送壳膜】联想 ZUK Z2 4G+64G 白色 移动联通电信4G手机",
+				"price":"￥1479.00",
+				"src":"img/zu.jpg"
+				},{
+				"id":1028,
+				"title":"苹果 10.5英寸iPad Pro 平板",
+				"ad":"苹果 10.5英寸iPad Pro 平板电脑（64G WLAN版/A10X芯片/Retina屏）",
+				"price":"￥1479.00",
+				"src":"img/pad.jpg"
+				},{
+				"id":1020,
+				"title":"戴尔 热血游闸2游戏本",
+				"ad":"【顺丰包邮】华硕ZX53VW",
+				"price":"￥5452",
+				"src":"img/z5.jpg"
+				},{
+				"id":1029,
+				"title":"GoPro HERO 5 Black 运动摄像",
+				"ad":"GoPro HERO 5 Black 运动摄像机 4K高清",
+				"price":"￥2588",
+				"src":"img/go.jpg"
+				},{
+			     "id":1013,
+				"title":"索尼ILCE-5100套机（16-50mm）",
+				"price":"￥3088",
+				"src":"img/ilce.jpg"
+				},{
+			     "id":1030,
+				"title":"苹果 iPhone 7 Plus（全网通）",
+				"price":"￥5738",
+				"src":"img/apple.jpg"
+				}
+	]
+	
+	
+	
+	}
+	
+]

@@ -1,0 +1,266 @@
+.margin{
+    margin: 0 auto;
+    width:980px;
+    }
+    h1,h2,h3,h4,h5,h6{
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+    }
+body,ul,li,dl,dd,dt{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+i{font-style: normal;}
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+section{
+    position: relative;
+}
+#top{                              //顶部
+    height:94px;
+    .left{
+        float: left;
+        width:370px;
+        height:94px;
+        .logo{
+            display:block;
+            margin:20px 0 24px 0;
+            float: left;
+        }
+        .jieshao{
+            display:block;
+            border-left: 1px solid #e6e6e6;
+            color:#666;
+            font-size: 14px;
+            height:50px;
+            width:160px;
+            margin-top: 0;
+            float:left;
+            margin-left:8px;
+            padding-left: 11px;
+            margin-top:20px;
+            font-size: 14px;
+            line-height: 50px;
+        }
+    }
+    .right{
+        float:right;
+        height:84px;
+        width:214px;
+        font-size: 12px;
+        color:#333;
+        line-height: 50px;
+        padding-top: 10px;
+        a{
+            color:#cc0000;
+            margin-left:13px;
+        }
+    }
+}
+//登陆界面
+#main{
+    border:1px solid #e6e6e6;
+    height:764px;
+    p{
+        height:60px;
+        width:980px;
+        background: #fafafa;
+        margin: 0;
+        span{
+            margin-left: 91px;
+            font-size: 17px;
+            line-height: 60px;
+            color:#999;
+        }
+    }
+    .login{
+        margin-top: 30px;
+        p{
+            background:none;
+        }
+        height:704px;
+        width:502px;
+        float:left;
+        padding: 0 115px 0 87px;
+        .biankuang{
+            width:502px;
+            height:37px;
+            .shouji1{
+                background: none;
+                width:188px;
+                height:37px;
+                float:left;
+                color:#E02D2D;
+                border-top:2px solid #e02d2d;
+                border-left:1px solid #e6e6e6;
+                font-size: 17px;
+                line-height: 37px;
+                padding-left: 62px;
+                i{
+                    font-size: 22px;
+                    margin-right:8px;
+                    color:#E02D2D;
+                }
+            }
+            .shouji2{
+                background: none;
+                border-left:1px solid #E6E6E6;
+                border-bottom: 1px solid #E6E6E6;
+                float:left;
+                width:250px;
+                height:37px;
+            }
+        }
+        ul{
+            margin-top:22px;
+            li{
+            
+            height:82px;
+            padding-left:15px;
+            span{
+                font-size:12px;
+                color:#666;
+                margin-right:6px;
+                }
+            input{
+                    height:38px;
+                    width:276px;
+                    border:1px solid #ccc;
+                    padding: 0 6px;
+                }
+                input:focus{
+                    outline: none;
+                    border:1px solid #de3030;
+                }
+                i{
+                    color:#ff3333;
+                    display: none;
+                  span{
+                        color:#ff3333;
+                  }
+                }
+                #yanzheng,#tp{
+                    height:38px;
+                    width:168px;
+                }
+                p{
+                    font-size: 12px;
+                    line-height: 30px;
+                    color:#aaa;
+                    margin-left:51px;
+                    height:30px;
+                }
+                img{
+                    vertical-align: middle;
+                    margin-left:10px;
+                }
+        }
+        li:nth-child(3){
+            a{
+                display: inline-block;
+                height:38px;
+                width:108px;
+                background: #f8f8f8;
+                color:#666;
+                border:1px solid #ccc;
+                font-size: 11px;
+                line-height: 38px;
+                text-align: center;
+                margin-left: 10px;
+            }
+        }
+        li:nth-child(5){
+            padding-left:5px;
+            p{
+                margin-left:63px;
+            }
+        }
+        li:nth-child(6){
+           height:54px;
+       }
+            #xieyi{
+                height:12px;
+                width:13px;
+                background: #e5e5e5;
+                margin-left:66px;
+            }
+            #btn{
+                height:40px;
+                width: 290px;
+                background: #dd2f2f;
+                color:white;
+                margin-left: 63px;
+            }
+        }
+    }
+    .other{
+        width:251px;
+        height:704px;
+        float:right;
+        padding-left: 24px;
+        border-left: 1px solid #F5F5F5;
+        h5{
+            margin-top: 23px;
+            font-size: 11px;
+            line-height: 25px;
+            color:#666;
+            a{
+                color:#134ba0;
+                margin-left: 6px;
+            }
+        }
+        h6{
+            font-size: 11px;
+            line-height: 23px;
+            color:#666;
+        }
+        ul{
+            margin-top: 15px;
+            li{
+                margin-top: 15px;
+            }
+        }
+    }
+}
+#bottom{
+    height:55px;
+    width:100%;
+    border-top:1px solid #EDEDED;
+    margin-top: 50px;
+    overflow: hidden;
+    .margin{
+        a{
+            font-size: 11px;
+            color:#666;
+            margin-left:10px;
+            margin-top: 15px;
+            line-height: 41px;
+        }
+        a:hover{
+            color:red;
+            text-decoration: underline;
+        }
+        span{
+            color:#666;
+            margin-left:10px;
+            line-height: 41px;
+        }
+        b{
+            font-weight: normal;
+            margin-left:490px;
+            font-size: 11px;
+            line-height: 41px;
+            color:#666;
+        }
+    }
+}
+
+
+
+

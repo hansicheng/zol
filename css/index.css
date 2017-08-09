@@ -1,0 +1,1437 @@
+.margin {
+  margin: 0 auto;
+  width: 1200px; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+body, ul, li, dl, dd, dt {
+  margin: 0;
+  padding: 0; }
+
+input:focus {
+  outline: none; }
+
+body {
+  background-color: #f7f7f7;
+  width: 100%; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+i {
+  font-style: normal; }
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+section {
+  position: relative; }
+
+#fix {
+  height: 630px;
+  width: 37px;
+  background: black;
+  position: fixed;
+  right: 0;
+  z-index: 4;
+  padding-top: 140px; }
+  #fix a {
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-top: 28px; }
+    #fix a i {
+      color: white;
+      font-size: 21px;
+      line-height: 37px; }
+    #fix a span {
+      position: absolute;
+      line-height: 37px;
+      width: 68px;
+      background: #FF3333;
+      color: white;
+      font-size: 11px;
+      left: 37px;
+      text-align: center;
+      transition: 0.5s; }
+  #fix a:hover {
+    background: #FF3333; }
+    #fix a:hover span {
+      left: -68px; }
+
+#gd {
+  height: 56px;
+  background: white;
+  z-index: 3;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none; }
+  #gd #logo {
+    width: 269px;
+    height: 52px;
+    float: left; }
+    #gd #logo a {
+      display: block;
+      float: left; }
+    #gd #logo div {
+      background: white;
+      float: right;
+      position: relative;
+      height: 26px;
+      width: 66px;
+      border: 1px solid #E6E6E6;
+      margin: 10px 0 12px 19px; }
+      #gd #logo div span {
+        display: block;
+        position: relative;
+        padding: 0 26px 0 12px;
+        height: 26px;
+        font: 14px/26px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+        color: #333;
+        background-color: #fff;
+        cursor: pointer; }
+      #gd #logo div ul {
+        position: absolute;
+        display: none;
+        left: -1px;
+        width: 160px;
+        border: 1px solid #e6e6e6;
+        padding: 8px 10px;
+        z-index: 5;
+        background: white; }
+        #gd #logo div ul li {
+          float: left;
+          font: 12px/26px "";
+          height: 26px;
+          padding: 2px 10px;
+          color: #333;
+          display: inline-block; }
+          #gd #logo div ul li a {
+            display: inline-block;
+            padding: 8 8px;
+            color: #333; }
+        #gd #logo div ul li:hover {
+          background-color: #f4f4f4;
+          color: red; }
+        #gd #logo div ul li:last-child {
+          background-color: red;
+          color: white; }
+        #gd #logo div ul li:last-child:hover {
+          background-color: red;
+          color: white; }
+          #gd #logo div ul li:last-child:hover a {
+            background-color: red;
+            color: white; }
+    #gd #logo div:hover {
+      border-bottom: none; }
+      #gd #logo div:hover ul {
+        display: block;
+        left: -1px;
+        top: 26px; }
+  #gd .search {
+    position: relative;
+    float: left;
+    margin: 10px 0 11px 35px; }
+    #gd .search .txt {
+      float: left;
+      width: 441px;
+      height: 12px;
+      border: 2px solid #ce1a1b;
+      padding: 10px; }
+    #gd .search .btn {
+      float: left;
+      height: 36px;
+      width: 78px;
+      color: white;
+      background: #ce1a1b;
+      border: none;
+      font: 16px/36px "";
+      text-align: center; }
+    #gd .search div {
+      position: absolute;
+      right: 88px;
+      top: 8px; }
+      #gd .search div a {
+        padding: 0 5px;
+        display: inline-block;
+        font: 11px/18px "";
+        color: #898989;
+        background-color: #eee;
+        margin-right: 8px; }
+      #gd .search div a:hover {
+        background-color: #ce1a1b;
+        color: white; }
+  #gd .list {
+    position: relative;
+    float: right;
+    margin: 10px 0 11px 35px; }
+    #gd .list a {
+      font: 12px/20px "";
+      color: #333;
+      margin-right: 21px; }
+    #gd .list a:hover {
+      color: red; }
+    #gd .list div {
+      position: absolute;
+      height: 13px;
+      width: 13px;
+      top: -3px;
+      right: 50px;
+      border-radius: 50%;
+      background-color: red;
+      font: 9px/13px "";
+      text-align: center;
+      color: white; }
+
+#top {
+  position: relative;
+  z-index: 4;
+  height: 29px;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+  background: #f5f5f5;
+  text-align: center; }
+  #top a {
+    padding-bottom: -5px;
+    line-height: 29px;
+    color: #666;
+    font-size: 11px; }
+  #top span {
+    color: #666;
+    font: 11px/29px "";
+    text-align: center; }
+  #top a:hover {
+    color: #ce1a1b;
+    text-decoration: underline; }
+  #top i {
+    font-size: 6px;
+    transition: 1s; }
+  #top .left {
+    float: left; }
+    #top .left a {
+      margin-right: 24px; }
+    #top .left .blue {
+      color: #3366cc; }
+    #top .left .blue:hover {
+      color: red; }
+  #top ul {
+    float: right; }
+    #top ul a {
+      padding: 0; }
+    #top ul li {
+      color: #666;
+      float: left;
+      position: relative;
+      padding: 0 10px;
+      border-left: 1px solid #f5f5f5;
+      border-right: 1px solid #f5f5f5; }
+    #top ul i {
+      font-size: 4px;
+      transition: 1s; }
+    #top ul li:nth-child(5) div {
+      height: 11px;
+      background: #d8d8d8;
+      width: 2px;
+      margin-top: 9px; }
+    #top ul li:nth-child(6):hover {
+      background-color: white;
+      border-left: 1px solid #ededed;
+      border-right: 1px solid #ededed; }
+      #top ul li:nth-child(6):hover a {
+        color: #666;
+        text-decoration: none; }
+      #top ul li:nth-child(6):hover i {
+        display: inline-block;
+        transform: rotateZ(180deg); }
+      #top ul li:nth-child(6):hover div {
+        border-top: none;
+        display: block;
+        position: absolute;
+        left: -1px;
+        top: 29px; }
+    #top ul li:nth-child(2) div {
+      width: 106px;
+      height: 62px;
+      border: 1px solid #E6E6E6;
+      border-top: none;
+      position: absolute;
+      display: none;
+      z-index: 1;
+      background-color: white; }
+      #top ul li:nth-child(2) div b {
+        font-weight: normal;
+        color: red; }
+    #top ul li:nth-child(2):hover {
+      background-color: white;
+      border-left: 1px solid #ededed;
+      border-right: 1px solid #ededed; }
+      #top ul li:nth-child(2):hover a {
+        color: #666;
+        text-decoration: none; }
+      #top ul li:nth-child(2):hover div {
+        display: block;
+        left: -1px;
+        top: 29px; }
+      #top ul li:nth-child(2):hover i {
+        display: inline-block;
+        transform: rotateZ(180deg); }
+    #top ul li:nth-child(6) .phone {
+      background: url(../img/phono.jpg) no-repeat left center;
+      padding-left: 19px; }
+    #top ul li:nth-child(6) div {
+      border: 1px solid #ededed;
+      padding: 23px;
+      display: none;
+      position: absolute;
+      z-index: 2;
+      background-color: white; }
+      #top ul li:nth-child(6) div img {
+        height: 130px;
+        width: 130px; }
+    #top ul li:last-child span {
+      position: absolute;
+      display: none; }
+    #top ul li:nth-child(8) div {
+      position: absolute;
+      width: 85px;
+      height: 21px;
+      border: 1px solid #ededed;
+      display: none;
+      padding: 6px 9px 7px 14px;
+      font-size: 9px;
+      z-index: 1; }
+    #top ul li:nth-child(8):hover {
+      background-color: #fff; }
+      #top ul li:nth-child(8):hover div {
+        display: block;
+        right: 0px;
+        top: 29px;
+        border-top: none; }
+      #top ul li:nth-child(8):hover i {
+        display: inline-block;
+        transform: rotateZ(180deg); }
+      #top ul li:nth-child(8):hover a {
+        text-decoration: none; }
+
+#banner {
+  height: 110px;
+  background: white;
+  z-index: 3; }
+  #banner #logo {
+    width: 269px;
+    height: 52px;
+    float: left;
+    margin: 30px 10px 28px 0; }
+    #banner #logo a {
+      display: block;
+      float: left; }
+    #banner #logo div {
+      background: white;
+      float: right;
+      position: relative;
+      height: 26px;
+      width: 66px;
+      border: 1px solid #E6E6E6;
+      margin: 10px 0 12px 19px; }
+      #banner #logo div span {
+        display: block;
+        position: relative;
+        padding: 0 26px 0 12px;
+        height: 26px;
+        font: 14px/26px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+        color: #333;
+        background-color: #fff;
+        cursor: pointer; }
+      #banner #logo div ul {
+        position: absolute;
+        display: none;
+        left: -1px;
+        width: 160px;
+        border: 1px solid #e6e6e6;
+        padding: 8px 10px;
+        z-index: 5;
+        background: white; }
+        #banner #logo div ul li {
+          float: left;
+          font: 12px/26px "";
+          height: 26px;
+          padding: 2px 10px;
+          color: #333;
+          display: inline-block; }
+          #banner #logo div ul li a {
+            display: inline-block;
+            padding: 8 8px;
+            color: #333; }
+        #banner #logo div ul li:hover {
+          background-color: #f4f4f4;
+          color: red; }
+        #banner #logo div ul li:last-child {
+          background-color: red;
+          color: white; }
+        #banner #logo div ul li:last-child:hover {
+          background-color: red;
+          color: white; }
+          #banner #logo div ul li:last-child:hover a {
+            background-color: red;
+            color: white; }
+    #banner #logo div:hover {
+      border-bottom: none; }
+      #banner #logo div:hover ul {
+        display: block;
+        left: -1px;
+        top: 26px; }
+  #banner .search {
+    position: relative;
+    float: left;
+    margin: 37px 0 37px 70px; }
+    #banner .search .txt {
+      float: left;
+      width: 441px;
+      height: 12px;
+      border: 2px solid #ce1a1b;
+      padding: 10px; }
+    #banner .search .btn {
+      float: left;
+      height: 36px;
+      width: 78px;
+      color: white;
+      background: #ce1a1b;
+      border: none;
+      font: 16px/36px "";
+      text-align: center; }
+    #banner .search div {
+      position: absolute;
+      right: 88px;
+      top: 8px; }
+      #banner .search div a {
+        padding: 0 5px;
+        display: inline-block;
+        font: 11px/18px "";
+        color: #898989;
+        background-color: #eee;
+        margin-right: 8px; }
+      #banner .search div a:hover {
+        background-color: #ce1a1b;
+        color: white; }
+  #banner .list {
+    position: relative;
+    float: right;
+    margin: 45px 0 45px 35px; }
+    #banner .list a {
+      font: 12px/20px "";
+      color: #333;
+      margin-right: 21px; }
+    #banner .list a:hover {
+      color: red; }
+    #banner .list div {
+      position: absolute;
+      height: 13px;
+      width: 13px;
+      top: -3px;
+      right: 50px;
+      border-radius: 50%;
+      background-color: red;
+      font: 9px/13px "";
+      text-align: center;
+      color: white; }
+
+#wrap .all {
+  position: relative;
+  z-index: 2;
+  height: 40px; }
+  #wrap .all li {
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 22px; }
+    #wrap .all li a {
+      color: #333;
+      font: 100 17px/40px ""; }
+    #wrap .all li a:hover {
+      color: red; }
+  #wrap .all .first {
+    height: 40px;
+    width: 120px;
+    background-color: #ce1a1b;
+    text-align: center;
+    line-height: 40px; }
+    #wrap .all .first img {
+      margin-left: 9px; }
+    #wrap .all .first ul {
+      z-index: 3;
+      display: none;
+      padding: 0 10px;
+      height: 400px;
+      width: 100px;
+      color: #fff;
+      background-color: #454545;
+      text-align: center; }
+      #wrap .all .first ul li {
+        position: relative;
+        margin: 0;
+        float: none;
+        font: 16px/54px "";
+        padding: 0 9px 12px 0;
+        color: #fff;
+        border-bottom: 1px solid #4d4d4d;
+        line-height: 53px; }
+        #wrap .all .first ul li span {
+          color: #808080;
+          margin-left: 15px; }
+        #wrap .all .first ul li i {
+          color: #fff; }
+        #wrap .all .first ul li div {
+          margin: 0;
+          position: absolute;
+          left: 110px;
+          top: 0;
+          display: none;
+          height: 401px;
+          background: white;
+          overflow: hidden;
+          width: 680px; }
+          #wrap .all .first ul li div a {
+            display: inline-block;
+            margin: 0 30px 0 0;
+            font: 14px/28px "Microsoft YaHei"; }
+          #wrap .all .first ul li div a:last-child {
+            display: block;
+            margin: 0; }
+  #wrap .all .first:hover ul {
+    display: block; }
+    #wrap .all .first:hover ul li:hover div {
+      display: block; }
+      #wrap .all .first:hover ul li:hover div div:hover a {
+        color: red;
+        text-decoration: underline; }
+
+#lunbo {
+  width: 100%;
+  height: 401px; }
+  #lunbo ul {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    overflow: hidden; }
+    #lunbo ul .g {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0px;
+      top: 0;
+      z-index: 1; }
+      #lunbo ul .g a img {
+        vertical-align: middle;
+        z-index: 0; }
+  #lunbo .second {
+    position: absolute;
+    left: 660px;
+    bottom: 20px;
+    height: 20px;
+    width: 100px; }
+    #lunbo .second li {
+      position: relative;
+      z-index: 2;
+      float: left;
+      height: 10px;
+      width: 10px;
+      border-radius: 5px;
+      background-color: #FFF;
+      margin: 5px 5px;
+      cursor: pointer; }
+    #lunbo .second .cur {
+      background-color: red; }
+
+#tuangou {
+  height: 230px;
+  width: 100%;
+  position: relative; }
+  #tuangou .tuangou {
+    overflow: hidden;
+    margin-top: 23px; }
+    #tuangou .tuangou span {
+      color: #666666;
+      width: 224px;
+      float: left;
+      font-size: 13px; }
+      #tuangou .tuangou span b {
+        margin: 0 11px;
+        font-weight: normal;
+        font-size: 23px; }
+      #tuangou .tuangou span i {
+        font-size: 30px;
+        color: red; }
+    #tuangou .tuangou a {
+      float: right;
+      color: #666; }
+    #tuangou .tuangou a:hover {
+      color: red; }
+  #tuangou #botm {
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    bottom: 0;
+    left: 50%; }
+    #tuangou #botm li {
+      height: 8px;
+      width: 30px;
+      background-color: #cbcbcb;
+      float: left;
+      margin-right: 2px; }
+    #tuangou #botm .hover {
+      background-color: red; }
+  #tuangou #lunbo3 {
+    overflow: hidden;
+    position: relative; }
+    #tuangou #lunbo3 #sliderBtns {
+      display: block;
+      display: none; }
+      #tuangou #lunbo3 #sliderBtns .btn {
+        z-index: 5;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 36px;
+        line-height: 36px;
+        color: #999999; }
+      #tuangou #lunbo3 #sliderBtns .btn:first-child {
+        left: 15px;
+        top: 60px; }
+      #tuangou #lunbo3 #sliderBtns .btn:last-child {
+        right: 15px;
+        top: 60px; }
+    #tuangou #lunbo3 #blider {
+      position: relative;
+      overflow: hidden;
+      height: 151px;
+      width: 4800px; }
+      #tuangou #lunbo3 #blider .jishi {
+        color: #abaaa5;
+        position: absolute;
+        top: 105px;
+        left: 15px;
+        font-size: 11px;
+        line-height: 39px; }
+        #tuangou #lunbo3 #blider .jishi span {
+          color: red; }
+      #tuangou #lunbo3 #blider li {
+        float: left;
+        width: 1200px;
+        height: 151px; }
+        #tuangou #lunbo3 #blider li .ul2 {
+          width: 1200px;
+          height: 151px; }
+          #tuangou #lunbo3 #blider li .ul2 li {
+            position: relative;
+            width: 398px;
+            height: 151px;
+            float: left;
+            margin-right: 2px; }
+            #tuangou #lunbo3 #blider li .ul2 li .h5 {
+              margin: 0;
+              position: absolute;
+              color: #333;
+              top: 15px;
+              left: 15px;
+              font-size: 17px;
+              line-height: 27px;
+              font-weight: 500; }
+            #tuangou #lunbo3 #blider li .ul2 li .h6 {
+              position: absolute;
+              color: #999;
+              left: 15px;
+              top: 42px;
+              line-height: 24px;
+              font-size: 12px; }
+            #tuangou #lunbo3 #blider li .ul2 li .h4 {
+              position: absolute;
+              color: #ff3333;
+              left: 15px;
+              top: 74px;
+              line-height: 31px;
+              font-size: 15px; }
+            #tuangou #lunbo3 #blider li .ul2 li img {
+              height: 120px;
+              width: 100px;
+              position: absolute;
+              top: 15px;
+              right: 30px; }
+            #tuangou #lunbo3 #blider li .ul2 li .hid {
+              display: none;
+              transition: 2s;
+              position: absolute;
+              top: 151px;
+              left: 0;
+              background: #494845;
+              opacity: 0.8; }
+              #tuangou #lunbo3 #blider li .ul2 li .hid a {
+                color: white; }
+              #tuangou #lunbo3 #blider li .ul2 li .hid .hid-l {
+                position: relative;
+                float: left;
+                width: 149px;
+                height: 151px; }
+                #tuangou #lunbo3 #blider li .ul2 li .hid .hid-l img {
+                  width: 80px;
+                  height: 80px;
+                  vertical-align: middle;
+                  border-radius: 10%;
+                  left: 34px; }
+                #tuangou #lunbo3 #blider li .ul2 li .hid .hid-l .hidp {
+                  width: 149px;
+                  color: #fff;
+                  position: absolute;
+                  left: 8px;
+                  bottom: 22px;
+                  font-size: 11px; }
+                  #tuangou #lunbo3 #blider li .ul2 li .hid .hid-l .hidp a {
+                    margin: 0 9px;
+                    color: #fff;
+                    margin-right: 9px; }
+                  #tuangou #lunbo3 #blider li .ul2 li .hid .hid-l .hidp a:hover {
+                    text-decoration: underline; }
+              #tuangou #lunbo3 #blider li .ul2 li .hid .hid-r {
+                position: relative;
+                float: right;
+                width: 249px;
+                height: 151px; }
+                #tuangou #lunbo3 #blider li .ul2 li .hid .hid-r .hid5 {
+                  position: absolute;
+                  top: 17px;
+                  left: 0;
+                  font-size: 15px;
+                  line-height: 27px;
+                  color: #ffffff; }
+                #tuangou #lunbo3 #blider li .ul2 li .hid .hid-r .hid6 {
+                  position: absolute;
+                  top: 44px;
+                  left: 0;
+                  font-size: 12px;
+                  line-height: 28px;
+                  color: #ff3333; }
+                #tuangou #lunbo3 #blider li .ul2 li .hid .hid-r .hid4 {
+                  position: absolute;
+                  top: 72px;
+                  left: 0;
+                  font-size: 12px;
+                  line-height: 20px;
+                  color: #fff; }
+                #tuangou #lunbo3 #blider li .ul2 li .hid .hid-r .hid2 {
+                  position: absolute;
+                  top: 103px;
+                  left: 0;
+                  background: #FF3333;
+                  width: 73px;
+                  height: 28px;
+                  line-height: 28px;
+                  font-size: 12px;
+                  text-align: center;
+                  color: #fff; }
+          #tuangou #lunbo3 #blider li .ul2 li:hover #sliderBtns {
+            display: block; }
+          #tuangou #lunbo3 #blider li .ul2 li:hover .hid {
+            display: block;
+            top: 0; }
+          #tuangou #lunbo3 #blider li .ul2 li:first-child {
+            background-color: #fff6dd; }
+          #tuangou #lunbo3 #blider li .ul2 li:nth-child(2) {
+            background-color: #ffe5e5; }
+          #tuangou #lunbo3 #blider li .ul2 li:nth-child(3) {
+            background-color: #e3f9ff; }
+
+#quan {
+  height: 102px;
+  width: 100%;
+  margin-top: 55px; }
+
+#jingxuan {
+  height: 397px;
+  width: 100%; }
+  #jingxuan .quan {
+    height: 57px;
+    margin-top: 23px; }
+    #jingxuan .quan span {
+      color: #666666;
+      width: 270px;
+      float: left;
+      font-size: 13px;
+      line-height: 39px; }
+      #jingxuan .quan span b {
+        margin: 0 11px;
+        font-weight: normal;
+        font-size: 23px; }
+      #jingxuan .quan span i {
+        font-size: 26px;
+        color: red; }
+    #jingxuan .quan a {
+      float: right;
+      color: #666; }
+    #jingxuan .quan a:hover {
+      color: red; }
+  #jingxuan .jingxuan {
+    height: 341px;
+    position: relative; }
+    #jingxuan .jingxuan li {
+      float: left;
+      height: 300px;
+      width: 200px;
+      background-color: #fff;
+      margin-right: 10px;
+      padding: 20px 15px;
+      border: 1px solid white; }
+      #jingxuan .jingxuan li a {
+        display: block; }
+        #jingxuan .jingxuan li a img {
+          vertical-align: top;
+          text-align: center;
+          margin-bottom: 28px; }
+      #jingxuan .jingxuan li .ad {
+        text-align: center;
+        font-size: 12px;
+        line-height: 24px;
+        color: #333; }
+        #jingxuan .jingxuan li .ad a {
+          color: #333; }
+        #jingxuan .jingxuan li .ad a:hover {
+          color: #FF3333;
+          text-decoration: underline; }
+      #jingxuan .jingxuan li .price {
+        text-align: center;
+        font-size: 10px;
+        line-height: 36px;
+        color: #333333; }
+        #jingxuan .jingxuan li .price span {
+          color: #ff3333; }
+    #jingxuan .jingxuan li:last-child {
+      margin-right: 0; }
+    #jingxuan .jingxuan li:first-child {
+      height: 341px;
+      padding: 0;
+      width: 230px; }
+    #jingxuan .jingxuan li:hover {
+      border: 1px solid #E9E9E9;
+      box-shadow: 0 0 2px #CCCCCC; }
+
+#dianjing {
+  height: 615px; }
+  #dianjing .dianjing {
+    height: 57px;
+    margin-top: 23px; }
+    #dianjing .dianjing span {
+      color: #666666;
+      width: 270px;
+      float: left;
+      font-size: 13px;
+      line-height: 39px; }
+      #dianjing .dianjing span b {
+        margin: 0 11px;
+        font-weight: normal;
+        font-size: 23px; }
+      #dianjing .dianjing span i {
+        font-size: 26px;
+        color: red; }
+    #dianjing .dianjing a {
+      float: right;
+      color: #666; }
+    #dianjing .dianjing a:hover {
+      color: red; }
+  #dianjing .bottom {
+    height: 566px;
+    width: 100%;
+    margin-top: 9px; }
+    #dianjing .bottom #remen {
+      height: 566px;
+      width: 595px;
+      float: left;
+      background: #FFF;
+      position: relative;
+      overflow: hidden; }
+      #dianjing .bottom #remen .title {
+        height: 46px;
+        width: 562px;
+        background-color: #7095ee;
+        padding: 0 20px 0 13px; }
+        #dianjing .bottom #remen .title .l {
+          float: left;
+          font-size: 18px;
+          line-height: 46px;
+          color: white; }
+        #dianjing .bottom #remen .title .qiehuan {
+          height: 46px;
+          float: right; }
+          #dianjing .bottom #remen .title .qiehuan li {
+            margin-top: 10px;
+            height: 22px;
+            float: left;
+            margin-left: 27px;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+            border-bottom: 3px solid #7095ee; }
+          #dianjing .bottom #remen .title .qiehuan .active {
+            border-bottom: 3px solid white; }
+      #dianjing .bottom #remen .biaoqian {
+        position: absolute;
+        width: 595px;
+        height: 517px;
+        left: 0;
+        bottom: 0;
+        overflow: hidden;
+        display: none; }
+        #dianjing .bottom #remen .biaoqian .u1 {
+          position: absolute;
+          height: 260px;
+          overflow: hidden;
+          width: 1785px; }
+          #dianjing .bottom #remen .biaoqian .u1 li {
+            float: left;
+            width: 595px;
+            height: 260px; }
+            #dianjing .bottom #remen .biaoqian .u1 li a {
+              display: block; }
+              #dianjing .bottom #remen .biaoqian .u1 li a img {
+                height: 260px;
+                width: 595px; }
+        #dianjing .bottom #remen .biaoqian .u2 {
+          height: 257px;
+          width: 595px;
+          position: absolute;
+          top: 260px; }
+          #dianjing .bottom #remen .biaoqian .u2 li {
+            float: left;
+            height: 257px;
+            width: 160px;
+            padding: 0 19px; }
+            #dianjing .bottom #remen .biaoqian .u2 li a {
+              display: block;
+              margin-bottom: 10px; }
+              #dianjing .bottom #remen .biaoqian .u2 li a img {
+                width: 160px;
+                height: 160px; }
+            #dianjing .bottom #remen .biaoqian .u2 li p {
+              height: 22px;
+              line-height: 22px;
+              font-size: 14px;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden; }
+            #dianjing .bottom #remen .biaoqian .u2 li h5 {
+              height: 34px;
+              line-height: 34px;
+              font-size: 18px;
+              color: #f33; }
+        #dianjing .bottom #remen .biaoqian .u3 {
+          position: absolute;
+          bottom: 275px;
+          left: 274px; }
+          #dianjing .bottom #remen .biaoqian .u3 li {
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background: #666;
+            float: left;
+            margin: 0 5px; }
+          #dianjing .bottom #remen .biaoqian .u3 .hover {
+            background-color: red; }
+    #dianjing .bottom #diy {
+      height: 566px;
+      width: 595px;
+      float: right; }
+      #dianjing .bottom #diy .dianjingdiy {
+        height: 46px;
+        width: 595px;
+        background: #9b74e9; }
+        #dianjing .bottom #diy .dianjingdiy span {
+          color: white;
+          width: 270px;
+          float: left;
+          font-size: 19px;
+          line-height: 46px;
+          margin-left: 15px; }
+      #dianjing .bottom #diy .show {
+        height: 520px;
+        width: 595px;
+        background: white; }
+        #dianjing .bottom #diy .show ul li {
+          float: left;
+          height: 257px;
+          width: 160px;
+          padding: 0 19px; }
+          #dianjing .bottom #diy .show ul li a {
+            display: block;
+            margin-bottom: 10px; }
+            #dianjing .bottom #diy .show ul li a img {
+              width: 160px;
+              height: 160px; }
+          #dianjing .bottom #diy .show ul li p {
+            height: 22px;
+            line-height: 22px;
+            font-size: 14px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            cursor: pointer; }
+          #dianjing .bottom #diy .show ul li p:hover {
+            color: red;
+            text-decoration: underline; }
+          #dianjing .bottom #diy .show ul li h5 {
+            height: 34px;
+            line-height: 34px;
+            font-size: 18px;
+            color: #f33; }
+
+#shuma {
+  padding: 34px 0;
+  height: 704px;
+  margin-top: 23px;
+  overflow: hidden; }
+  #shuma .shuma {
+    height: 36px;
+    text-align: center;
+    overflow: hidden; }
+    #shuma .shuma span {
+      color: #999;
+      width: 270px;
+      float: left;
+      font-size: 14px;
+      line-height: 36px; }
+      #shuma .shuma span b {
+        font-size: 23px;
+        font-weight: normal;
+        color: #666; }
+    #shuma .shuma i {
+      color: red;
+      margin-right: 12px;
+      font-size: 30px; }
+  #shuma #shuma-l {
+    height: 647px;
+    width: 594px;
+    background: white;
+    float: left; }
+    #shuma #shuma-l .shexiang {
+      height: 46px;
+      padding: 0 16px 0 14px;
+      background-color: #3ccbbc;
+      margin: 0;
+      overflow: hidden; }
+      #shuma #shuma-l .shexiang span {
+        display: inline-block;
+        float: left;
+        color: white;
+        font: 700 18px/46px "";
+        text-align: center; }
+      #shuma #shuma-l .shexiang a {
+        display: inline-block;
+        float: right;
+        color: white;
+        font: 12px/46px ""; }
+        #shuma #shuma-l .shexiang a i {
+          font-size: 18px;
+          margin-left: 3px;
+          color: white; }
+    #shuma #shuma-l .cam {
+      height: 520px;
+      width: 594px; }
+      #shuma #shuma-l .cam li {
+        width: 160px;
+        height: 260px;
+        background: white;
+        padding: 0 19px;
+        position: relative;
+        float: left; }
+        #shuma #shuma-l .cam li a {
+          padding: 10px 0; }
+          #shuma #shuma-l .cam li a img {
+            vertical-align: top; }
+        #shuma #shuma-l .cam li .over {
+          position: absolute;
+          width: 160px;
+          height: 0;
+          background: black;
+          opacity: .4;
+          transition: 0.5s;
+          bottom: 101px;
+          overflow: hidden; }
+          #shuma #shuma-l .cam li .over .cankao {
+            font: 12px/21px "";
+            color: #fff;
+            margin-top: 5px;
+            margin-bottom: 0;
+            text-align: center; }
+          #shuma #shuma-l .cam li .over .pingjia {
+            margin-bottom: 3px;
+            margin: 0;
+            font-size: 12px;
+            line-height: 23px;
+            color: #fff; }
+            #shuma #shuma-l .cam li .over .pingjia a {
+              margin: 0 12px;
+              color: white; }
+            #shuma #shuma-l .cam li .over .pingjia span {
+              color: #8f8f8f; }
+        #shuma #shuma-l .cam li h6 {
+          font-size: 12px;
+          line-height: 22px; }
+        #shuma #shuma-l .cam li h6:hover {
+          color: #FF3333;
+          text-decoration: underline; }
+        #shuma #shuma-l .cam li .price {
+          font: 13px/33px "";
+          color: #ff3333;
+          text-align: left; }
+      #shuma #shuma-l .cam li:hover .over {
+        height: 52px; }
+    #shuma #shuma-l .shangbiao {
+      height: 80px;
+      width: 594px; }
+      #shuma #shuma-l .shangbiao li {
+        width: 120px;
+        height: 60px;
+        padding: 10px 14px;
+        float: left; }
+        #shuma #shuma-l .shangbiao li a {
+          display: block; }
+  #shuma #shuma-r {
+    height: 647px;
+    width: 594px;
+    background: white;
+    float: right; }
+    #shuma #shuma-r .pingban {
+      height: 46px;
+      padding: 0 16px 0 14px;
+      background-color: #eb9e74;
+      margin: 0; }
+      #shuma #shuma-r .pingban span {
+        display: inline-block;
+        float: left;
+        color: white;
+        font: 700 18px/46px "";
+        text-align: center; }
+      #shuma #shuma-r .pingban a {
+        display: inline-block;
+        float: right;
+        color: white;
+        font: 12px/46px ""; }
+        #shuma #shuma-r .pingban a i {
+          font-size: 18px;
+          margin-left: 3px;
+          color: white; }
+    #shuma #shuma-r .bijiben {
+      height: 520px;
+      width: 594px; }
+      #shuma #shuma-r .bijiben li {
+        width: 160px;
+        height: 260px;
+        background: white;
+        padding: 0 19px;
+        position: relative;
+        float: left; }
+        #shuma #shuma-r .bijiben li a {
+          display: block;
+          padding: 10px 0; }
+          #shuma #shuma-r .bijiben li a img {
+            vertical-align: top;
+            width: 160px;
+            height: 160px; }
+        #shuma #shuma-r .bijiben li .over {
+          position: absolute;
+          width: 160px;
+          height: 0;
+          background: black;
+          opacity: .4;
+          transition: 0.5s;
+          bottom: 101px;
+          overflow: hidden; }
+          #shuma #shuma-r .bijiben li .over .cankao {
+            font: 12px/21px "";
+            color: #fff;
+            margin-top: 5px;
+            margin-bottom: 0;
+            text-align: center; }
+          #shuma #shuma-r .bijiben li .over .pingjia {
+            margin-bottom: 3px;
+            margin: 0;
+            font-size: 12px;
+            line-height: 23px;
+            color: #fff; }
+            #shuma #shuma-r .bijiben li .over .pingjia a {
+              display: inline;
+              margin: 0 12px;
+              color: white; }
+            #shuma #shuma-r .bijiben li .over .pingjia span {
+              color: #8f8f8f; }
+        #shuma #shuma-r .bijiben li h6 {
+          font-size: 12px;
+          line-height: 22px; }
+        #shuma #shuma-r .bijiben li h6:hover {
+          color: #FF3333;
+          text-decoration: underline; }
+        #shuma #shuma-r .bijiben li .price {
+          font: 13px/33px "";
+          color: #ff3333;
+          text-align: left; }
+      #shuma #shuma-r .bijiben li:hover .over {
+        height: 52px; }
+    #shuma #shuma-r .shangbiao-r {
+      height: 80px;
+      width: 594px; }
+      #shuma #shuma-r .shangbiao-r li {
+        width: 120px;
+        height: 60px;
+        padding: 10px 14px;
+        float: left; }
+        #shuma #shuma-r .shangbiao-r li a {
+          display: block; }
+
+#main {
+  position: relative;
+  height: 730px; }
+  #main #rexiao {
+    height: 30px;
+    width: 1200px;
+    background: none; }
+    #main #rexiao .xuxian {
+      height: 37px;
+      width: 1200px;
+      position: absolute;
+      top: -46px;
+      border-bottom: 1px dashed #d9d9d9; }
+      #main #rexiao .xuxian .benzhou {
+        display: block;
+        position: absolute;
+        height: 25px;
+        width: 138px;
+        background-color: #F7F7F7;
+        top: -10px;
+        left: 531px;
+        font-size: 25px;
+        text-align: center; }
+  #main .guanggao {
+    width: 1200px;
+    height: 654px; }
+    #main .guanggao li {
+      position: relative;
+      float: left;
+      height: 282px;
+      width: 220px;
+      padding: 18px 5px 20px 5px;
+      background: white;
+      margin: 0 5px 10px 5px; }
+      #main .guanggao li a {
+        display: block;
+        margin-bottom: 7px; }
+      #main .guanggao li p {
+        padding-left: 16px;
+        font-size: 13px;
+        margin: 0; }
+        #main .guanggao li p a {
+          display: inline;
+          color: #333; }
+        #main .guanggao li p a:hover {
+          color: #ff3333;
+          text-decoration: underline; }
+      #main .guanggao li h5 {
+        padding-left: 8px;
+        color: #ff3333;
+        font-size: 18px;
+        line-height: 34px;
+        font-weight: normal; }
+      #main .guanggao li .hid {
+        width: 200px;
+        height: 0px;
+        background: black;
+        opacity: 0.6;
+        overflow: hidden;
+        position: absolute;
+        bottom: 74px;
+        left: 16px;
+        cursor: pointer;
+        transition: 0.5s; }
+        #main .guanggao li .hid .cankao {
+          font: 11px/21px "";
+          color: white;
+          margin: 0;
+          margin-top: 5px; }
+        #main .guanggao li .hid .pingjia {
+          margin: 0;
+          margin-bottom: 3px; }
+          #main .guanggao li .hid .pingjia a {
+            display: inline;
+            font: 13px/23px "";
+            color: white; }
+            #main .guanggao li .hid .pingjia a span {
+              color: #8f8f8f;
+              margin: 0 12px 0 12px; }
+    #main .guanggao li:hover .hid {
+      height: 52px; }
+
+#bot {
+  height: 292px;
+  width: 100% px;
+  border-top: 1px solid #D9D9D9; }
+  #bot .tu {
+    height: 110px;
+    width: 1200px; }
+    #bot .tu li {
+      float: left;
+      width: 200px;
+      height: 110px;
+      border-bottom: 1px solid #ededed; }
+      #bot .tu li i {
+        font-size: 50px;
+        color: #00ae75;
+        display: block;
+        float: left;
+        line-height: 110px; }
+      #bot .tu li a {
+        line-height: 110px;
+        float: left;
+        display: block;
+        height: 50px;
+        margin-left: 9px;
+        margin-top: 30px; }
+        #bot .tu li a h4 {
+          font-size: 18px;
+          height: 28px;
+          line-height: 28px;
+          color: #333; }
+        #bot .tu li a h5 {
+          font-size: 14px;
+          height: 22px;
+          line-height: 22px;
+          color: #666666; }
+  #bot .bot {
+    height: 180px;
+    width: 1200px; }
+    #bot .bot dl {
+      float: left;
+      height: 113px;
+      margin-right: 120px;
+      margin-top: 20px; }
+      #bot .bot dl dt {
+        line-height: 28px;
+        font-size: 12px;
+        font-weight: 700; }
+      #bot .bot dl dd {
+        font-size: 11px;
+        line-height: 29px; }
+    #bot .bot .rexian {
+      float: right;
+      height: 84px;
+      width: 174px;
+      margin-top: 20px;
+      margin-right: 90px; }
+      #bot .bot .rexian i {
+        display: inline-block;
+        font-size: 38px;
+        height: 84px;
+        float: left; }
+      #bot .bot .rexian div {
+        float: right;
+        margin-left: 18px; }
+      #bot .bot .rexian a {
+        font-size: 11px;
+        line-height: 27px;
+        color: #333; }
+        #bot .bot .rexian a i {
+          color: red; }
+      #bot .bot .rexian a:hover {
+        text-decoration: underline; }
+      #bot .bot .rexian h5 {
+        font-size: 12px;
+        line-height: 28px;
+        color: #666;
+        font-weight: 700; }
+      #bot .bot .rexian h6 {
+        font-size: 11px;
+        line-height: 27px;
+        color: #333; }
+    #bot .bot .hezuo {
+      height: 116px;
+      width: 200px;
+      float: right; }
+      #bot .bot .hezuo i {
+        display: block;
+        width: 42px;
+        line-height: 116px;
+        float: left; }
+      #bot .bot .hezuo div {
+        float: right; }
+        #bot .bot .hezuo div h5 {
+          font-size: 12px;
+          line-height: 28px;
+          color: #666;
+          font-weight: 700; }
+        #bot .bot .hezuo div h6 {
+          font-size: 11px;
+          line-height: 27px;
+          color: #333; }
+        #bot .bot .hezuo div a {
+          display: block;
+          height: 26px;
+          width: 80px;
+          background: #ff3333;
+          color: white;
+          font-size: 11px;
+          line-height: 26px;
+          text-align: center; }
+
+#dibu {
+  height: 224px;
+  width: 100%;
+  background: #2d2d2d;
+  overflow: hidden; }
+  #dibu p {
+    margin-top: 23px;
+    font-size: 11px;
+    line-height: 23px; }
+    #dibu p span {
+      color: #bdbdbd;
+      margin: 0 12px; }
+    #dibu p a {
+      color: white; }
+    #dibu p a:hover {
+      text-decoration: underline; }
+
+#nav {
+  height: 272px;
+  width: 72px;
+  background: #908787;
+  position: fixed;
+  left: 0;
+  top: 69px;
+  display: none; }
+  #nav li {
+    border-bottom: 1px solid #a19999;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 38px;
+    cursor: pointer; }
+  #nav #btn {
+    height: 38px;
+    width: 72px;
+    background: #5d4949;
+    line-height: 38px;
+    font-size: 12px;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,232 @@
+.margin{
+    margin: 0 auto;
+    width:990px;
+    }
+    h1,h2,h3,h4,h5,h6{
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+    }
+body,ul,li,dl,dd,dt{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+i{font-style: normal;}
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+section{
+    position: relative;
+}
+#top{                              //顶部
+    height:94px;
+    .left{
+        float: left;
+        width:370px;
+        height:94px;
+        .logo{
+            display:block;
+            margin:20px 0 24px 0;
+            float: left;
+        }
+        .jieshao{
+            display:block;
+            border-left: 1px solid #e6e6e6;
+            color:#666;
+            font-size: 14px;
+            height:50px;
+            width:160px;
+            margin-top: 0;
+            float:left;
+            margin-left:8px;
+            padding-left: 11px;
+            margin-top:20px;
+            font-size: 14px;
+            line-height: 50px;
+        }
+    }
+    .right{
+        float:right;
+        height:84px;
+        width:214px;
+        font-size: 12px;
+        color:#333;
+        line-height: 50px;
+        padding-top: 10px;
+        a{
+            display: inline-block;
+            width:76px;
+            height:22px;
+            color:#cc0000;
+            margin-left:5px;
+            line-height: 22px;
+            text-align: center;
+        }
+        a:hover{
+            background: #cd1f1f;
+            color:white;
+        }
+    }
+}
+#main{
+    height:350px;
+    border:1px solid #e6e6e6;
+    margin-top: 22px;
+    #ad{
+        float:left;
+    }
+    .zhuce{
+        float:left;
+        height:350px;
+        width:291px;
+        padding:0 85px 0 94px;
+        p{
+            height:69px;
+            width: 291px;
+            margin: 0;
+            span{
+                font-size: 17px;
+                line-height: 69px;
+                float: left;
+                color:#666;
+            }
+            a{
+                float: right;
+                color:#333;
+                font-size: 11px;
+                line-height: 69px;
+                i{
+                    font-size: 15px;
+                    color:#e02d2d;
+                    margin-right: 7px;
+                }
+            }
+            a:hover{
+                text-decoration: underline;
+                color:#e02d2d;
+                i{
+                  text-decoration: none;
+                }
+            }
+            
+        }
+        input{
+            margin-top:9px;
+            border: 1px solid #EDEDED;
+            height:38px;
+            width:281px;
+            padding: 0 5px;
+            color:#757575;
+        }
+         input:focus{
+                    outline: none;
+                    border:1px solid #de3030;
+                }
+        .w{
+            margin-left:230px;
+            font-size: 11px;
+            color:#134ba0;
+        }
+        .w:hover{
+            a{
+            color:red;
+            text-decoration: underline;
+            }
+            
+        }
+        #btn{
+            background: #DE3030;
+            color:white;
+        }
+    }
+    .hezuo{
+        height:77px;
+        width:291px;
+        border-top: 1px solid #EDEDED;
+        margin-top: 22px;
+        position: relative;
+        .zh{
+            height:12px;
+            font-size: 12px;
+            width:91px;
+            position: absolute;
+            top:-10px;
+            background: white;
+            left:100px;
+        }
+         text-align: center;
+            a{
+                position: absolute;
+                height:36px;
+                top:20px;
+                left:24px;
+                display: block;
+            }
+    }
+}
+#bottom{
+    height:55px;
+    width:100%;
+    border-top:1px solid #EDEDED;
+    margin-top:242px;
+    overflow: hidden;
+    .margin{
+        a{
+            font-size: 11px;
+            color:#666;
+            margin-left:10px;
+            margin-top: 15px;
+            line-height: 41px;
+        }
+        a:hover{
+            color:red;
+            text-decoration: underline;
+        }
+        span{
+            color:#666;
+            margin-left:10px;
+            line-height: 41px;
+        }
+        b{
+            font-weight: normal;
+            margin-left:490px;
+            font-size: 11px;
+            line-height: 41px;
+            color:#666;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
