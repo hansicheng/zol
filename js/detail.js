@@ -1,15 +1,43 @@
 $(function(){
-	var str="";
-	var html="";
-	$(".middle li").click(function(){ 
-		
-		var i=$(this).index();
-		console.log(i)
-		$(".big").find("img").attr("src","img/big"+i+".jpg");
-		$(".fangda").find("img").attr("src","img/big"+i+".jpg");
-	})
-})
-
+		$(document).ready(function(){
+		var str=location.search; //获取地址栏的Id
+		console.log(str)
+		var proId=str.split("=")[1];    //截取？后的数据
+		$.ajax({
+			type:"get",
+			url:"js/list.json",
+			async:true,
+			success:function(data){
+				var lis=0;
+				console.log(data)
+				for(var i=0;i<data.length;i++){
+					var Imgstr=""; 
+					console.log(data)
+					if(data[i].id==proId){
+						lis=i;
+						console.log(data[i])
+						      //中图
+						var Bigstr="";       //大图
+						var Smastr="";       //小图
+						var Headstr="";      //标题
+						var Pricestr="";     //价格
+						var aDstr="";		//店铺	
+						
+					}
+				
+				}
+					Imgstr+="<img src='"+data[lis].src+"'><div class='jing'></div>"
+					$(".big").append(Imgstr);
+					Smastr+="<li><a href='#'><img src='"+data[lis].src+"'></a></li>"
+					$(".left .middle").append(Smastr);
+					Bigstr+="<img src='"+data[lis].src+"' class='da'>"
+					$(".fangda").append(Bigstr)
+					Headstr+=data[lis].title;
+					$(".zj .p3").append(Headstr)
+					Pricestr+=data[lis].price;
+					$(".zj .p5").find("span").append(Pricestr)
+					
+					
 var oMain=document.getElementById("main");
 /*console.log(oMain)*/
 var oLeft=oMain.getElementsByClassName("left")[0];
@@ -18,29 +46,11 @@ var oF=oLeft.getElementsByClassName("fangda")[0];
 var oDiv=oLeft.getElementsByClassName("jing")[0];
 var oImg=oF.getElementsByClassName("da")[0];
 var oSmall=oBig.getElementsByTagName("img")[0];
-var oFixed=document.getElementById("fixed");
-
-
-
-
-//顶部固定
-window.onscroll=function(){     
-	var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
-	if(scrollTop>=100){
-		oFixed.style.display="block";
-	}
-	if(scrollTop<100){
-		oFixed.style.display="none";
-	}
-	/*console.log(scrollTop)*/
-}
-
-
-
-
-
-//放大镜
-oBig.onmousemove=function(e){      
+var oFixed=document.getElementById("fixed");				
+					
+					
+	//放大镜				
+	oBig.onmousemove=function(e){      
 	oF.style.display="block";
 	oDiv.style.display="block";
 	oImg.style.left="0";
@@ -74,7 +84,80 @@ oBig.onmousemove=function(e){
 	oDiv.style.display="none";
 	
 }	
-}		
+}	//放大镜完成	
+			}
+			
+		})
+		
+		})
+	})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//放大镜
+$(function(){
+	var str="";
+	var html="";
+	$(".middle li").click(function(){ 
+		
+		var i=$(this).index();
+		console.log(i)
+		$(".big").find("img").attr("src","img/big"+i+".jpg");
+		$(".fangda").find("img").attr("src","img/big"+i+".jpg");
+	})
+})
+
+
+
+
+
+
+//顶部固定
+var oFixed=document.getElementById("fixed");	
+window.onscroll=function(){     
+	var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+	if(scrollTop>=100){
+		oFixed.style.display="block";
+	}
+	if(scrollTop<100){
+		oFixed.style.display="none";
+	}
+	/*console.log(scrollTop)*/
+}
+
+
+
+
+
+//放大镜
+
 
 
 
@@ -146,6 +229,7 @@ $(".gm").find(".jiaru").click(function(){
 	
 })
 
+//动态页面加载
 
 
 
@@ -153,3 +237,17 @@ $(".gm").find(".jiaru").click(function(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*)*/
