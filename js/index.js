@@ -159,7 +159,7 @@ $(function(){
  			var html="";
  			for(var i=0;i<6;i++){
  				
- 				html += "<li><a href='details.html'><img src='"+ data[i].src +"'></a><p>"+data[i].title+"</p><h5>"+data[i].price+"</h5></li>";
+ 				html += "<li><a href='list.html'><img src='"+ data[i].src +"'></a><p>"+data[i].title+"</p><h5>"+data[i].price+"</h5></li>";
  				
  			}
  			$(".show ul").append(html);
@@ -176,13 +176,13 @@ $(function(){
  			var str2="";
  			for(var i=0;i<6;i++){
  				
- 				str+="<li><a href='details.html'><img src='"+data[0]. cam[i].src+"'></a><h6>"+data[0].cam[i].title+"</h6><p class='price'>"+data[0].cam[i].price+"</p><div class='over'><p class='cankao'>电商参考价：暂无</p><p class='pingjia'><a href='#'>测评</a><span>|</span><a href='#'>视频</a><span>|</span><a href='#'>点评</a></p></div>  </li>"
+ 				str+="<li><a href='list.html'><img src='"+data[0]. cam[i].src+"'></a><h6>"+data[0].cam[i].title+"</h6><p class='price'>"+data[0].cam[i].price+"</p><div class='over'><p class='cankao'>电商参考价：暂无</p><p class='pingjia'><a href='#'>测评</a><span>|</span><a href='#'>视频</a><span>|</span><a href='#'>点评</a></p></div>  </li>"
  				
- 				html+="<li><a href='details.html'><img src='"+data[0]. bijiben[i].src+"'></a><h6>"+data[0].bijiben[i].title+"</h6><p class='price'>"+data[0].bijiben[i].price+"</p><div class='over'><p class='cankao'>电商参考价：暂无</p><p class='pingjia'><a href='#'>测评</a><span>|</span><a href='#'>视频</a><span>|</span><a href='#'>点评</a></p></div>  </li>"
+ 				html+="<li><a href='list.html'><img src='"+data[0]. bijiben[i].src+"'></a><h6>"+data[0].bijiben[i].title+"</h6><p class='price'>"+data[0].bijiben[i].price+"</p><div class='over'><p class='cankao'>电商参考价：暂无</p><p class='pingjia'><a href='#'>测评</a><span>|</span><a href='#'>视频</a><span>|</span><a href='#'>点评</a></p></div>  </li>"
  		}
  			
  			for(var i=0;i<10;i++){
- 				str2+="<li><a href='details.html'><img src='"+data[0]. guanggao[i].src+"'></a><p><a href='#'>   "+data[0].guanggao[i].title+"</a></p><h5>"+data[0].guanggao[i].price+"</h5><div class='hid'><p class='cankao'>电商参考价：暂无</p><p class='pingjia'><a href='#'>测评</a><span>|</span><a href='#'>视频</a><span>|</span><a href='#'>点评</a></p></div>  </li>"
+ 				str2+="<li><a href='list.html'><img src='"+data[0]. guanggao[i].src+"'></a><p><a href='#'>   "+data[0].guanggao[i].title+"</a></p><h5>"+data[0].guanggao[i].price+"</h5><div class='hid'><p class='cankao'>电商参考价：暂无</p><p class='pingjia'><a href='#'>测评</a><span>|</span><a href='#'>视频</a><span>|</span><a href='#'>点评</a></p></div>  </li>"
  	}			
  			
  			$(".cam").append(str);
